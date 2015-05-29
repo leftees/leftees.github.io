@@ -1,0 +1,79 @@
+/*///// FONTS /////*/
+@import url(http://fonts.googleapis.com/css?family=Raleway:100,200,300,400);
+
+/* to use type font-family: 'Raleway', sans-serif; */
+
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+
+/* to use type font-family: 'Poiret One', cursive; */
+
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+
+/* to use type font-family: 'Pacifico', cursive; */
+
+
+/*///// UNIVERSAL /////*/
+
+* {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+#wrapper:after {
+	content: " ";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+}
+
+#wrapper {
+	width: 100%;
+	margin-bottom: 2%;
+}
+
+/*///// BACKGROUND /////*/
+
+body {
+	background-image: url(https://dg6xfr3y1xvv2.cloudfront.net/tinymeat-laser-kitty-passport-3-lg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+/*///// NAV BAR /////*/
+
+.nav-bar {
+	background-color: rgb(192, 40, 111);
+	padding-top: 1px;
+}
+
+.nav-bar h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 60px;
+	color: white;
+}
+
+/*///// COLUMNS /////*/
+
+.col-3 {
+	display: inline-block;
+	background-color: white;
+	
+}
+
+.col-1 {
+	width: 80px;
+	display: inline-block;
+	background-color: white;
+	margin: 0 auto;
+
+}
+
+/*///// FOOTER /////*/
+footer {
+	background-color: rgb(192, 40, 111);
+}
+
